@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
       //     backgroundColor: Colors.blueAccent ,
       //     backgroundImage: AssetImage('assets/images/logo.png'),
       //     ),
-      // ),
+      // ), 
       body: Center(
         child: Text(
           'Namaste Guruji',
