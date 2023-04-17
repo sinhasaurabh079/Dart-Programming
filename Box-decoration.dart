@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 // main func of our app that calls runApp that further calls homepage
-void main() {
+void main() { 
   runApp(FlutterApp());
 }
 
