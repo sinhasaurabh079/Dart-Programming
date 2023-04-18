@@ -46,11 +46,13 @@ class _MyHomePageState extends State<MyHomePage> {
       // ),
       // ---------------------------------------------------------------------------------------
       body: RichText(
+        // for default style of text
         text: TextSpan(
           style: TextStyle(
             color: Colors.green,
             fontSize: 21,
           ),
+          // ------------ main part of textspan is array of textspan 
           children: <TextSpan>[
             TextSpan(text: 'Hello '),
             TextSpan(text: 'World!', style: TextStyle(
